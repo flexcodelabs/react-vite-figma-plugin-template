@@ -1,0 +1,1 @@
+# React Figma Plugin Template
