@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import { useRef, useEffect } from 'react'
 import logoPng from './assets/logo.png'
 import logoSvg from './assets/logo.svg?raw'
 import './App.sass'
@@ -27,13 +27,7 @@ function App() {
         <h2>Hello You 😎</h2>
       </header>
       <section>
-        <input
-          id="input"
-          type="number"
-          min="0"
-          ref={inputRef}
-          value={10}
-        />
+        <input id="input" type="number" min="0" ref={inputRef} value={10} />
         <label htmlFor="input">Make Rectangles 🧱</label>
       </section>
       <footer>
