@@ -1,5 +1,5 @@
 {
-  "name": "React Figma Plugin",
+  "name": "React Vite Figma Plugin Template",
   "id": "",
   "api": "1.0.0",
   "editorType": ["figma", "figjam"],
